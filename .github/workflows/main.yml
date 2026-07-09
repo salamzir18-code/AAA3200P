@@ -6,7 +6,7 @@ on:
 jobs:
   secure-rdp:
     runs-on: windows-latest
-    timeout-minutes: 480
+    timeout-minutes: 720
 
     steps:
       - name: Configure Core RDP Settings
